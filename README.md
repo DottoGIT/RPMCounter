@@ -4,7 +4,7 @@ This project is a collage assignemnt i did with my partner. The goal of our proj
 ![Screen](screens/screen1.png)
 ## My part of the project
 My part was to create hardware driver for the sensor, and app logic, my partner did the visual representation and helped with RPi4 packages on OpenWRT
-Most of my work is inside [skps_functions.c]() and is implementedwith the API [inside final_script.c]()
+Most of my work is inside [my_functions.c](projekt/rp4/src/my_functions.c) and is implementedwith the API inside [final_script_conn.c](projekt/rp4/src/final_script_conn.c)
 ## Sensor Measurements
 We used the VL53L0 laser distance sensor. Communication with the device is through the I2C interface and ST's API.
 ## Time Constraints
